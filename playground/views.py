@@ -11,6 +11,8 @@ from django.shortcuts import render
 
 
 def say_hello(request):
+    x =1
+    y =2
     return HttpResponse('Hello world') 
 
 def say_bye(request):
