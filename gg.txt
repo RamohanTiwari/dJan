@@ -1,0 +1,26 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install django
+
+python -m django --version
+❯ django-admin --version
+
+
+python3 manage.py runserver 
+
+
+django-admin startproject storefront
+
+
+
+
+django-admin startproject storefront . (takes current folder as main folder)
+
+
+
+
+❯ python3 manage.py startapp playground
+
+
+
+(out:❯gsource venv/bin/activate && uvicorn main:app --reload --host 0.0.0.0 --port 8000                             )
